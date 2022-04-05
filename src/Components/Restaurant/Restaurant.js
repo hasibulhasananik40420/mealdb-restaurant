@@ -21,10 +21,10 @@ const Restaurant = () => {
     return (
        <>
         {
-            loading ? <Spinner></Spinner> :
+            !meals.length ? <Spinner></Spinner> :
             <div className='bg-[#828282]'>
             <div>
-                <h1 className='text-3xl font-mono font-bold text-gray-800 text-center mt-4'>Welcome to Anik's Restaurant..</h1>
+                <h1 className='text-3xl font-mono font-bold text-gray-800 text-center pt-3'>Welcome to Anik's Restaurant..</h1>
             </div>
              <div className='text-center mt-5'>
                  
